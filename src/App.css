@@ -1,9 +1,14 @@
 .App {
   text-align: center;
 }
-
+.App h1 span{
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .8em;
+  font-size: .3em;
+}
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -20,4 +25,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+.btn.btn-primary {
+  color: #5c3977;
+  background-color: #fff;
+  border-color: #5c3977;
+  border-width: 2px;
+  font-weight: 700;
+}
+.btn {
+  padding: 15px 60px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
