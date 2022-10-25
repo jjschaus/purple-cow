@@ -22,7 +22,6 @@ function App() {
   }
 
 
-
   return (
 
     <div className="App">
@@ -33,7 +32,7 @@ function App() {
           <span>Project</span> Purple Cow
         </h1>
         <button onClick={handleClick} className="btn btn-primary">
-          Click me
+          Hit Counts
         </button>
 
       </header>
